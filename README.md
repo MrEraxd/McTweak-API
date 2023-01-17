@@ -1,3 +1,7 @@
+# Requirements
+
+Node.js: > 16.0.1
+
 # Setting up API for McTweak
 
 1. Download and install MongoDB on your enviroment: https://www.mongodb.com/try/download/community
