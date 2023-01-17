@@ -1,6 +1,9 @@
 # Requirements
 
+```
 Node.js: > 16.0.1
+MongoDB: > 6.0.3
+```
 
 # Setting up API for McTweak
 
