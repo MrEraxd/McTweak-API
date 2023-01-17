@@ -7,3 +7,7 @@
 5. Run `npm install`
 6. After install is complete do `npm run`
 7. Api is now available under https://localhost:4000
+
+# Docs
+
+Docs are available under /doc/shema/index.html
