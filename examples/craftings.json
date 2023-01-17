@@ -1,0 +1,346 @@
+[{
+  "_id": {
+    "$oid": "62f7b52b834008f95d7ac0c5"
+  },
+  "name": "furnace",
+  "displayName": "Furnace",
+  "prefix": "craftingTable",
+  "canvas": {
+    "slots": [
+      {
+        "type": "craftingCell",
+        "displayName": "ingr 2",
+        "syntaxName": "%ingridient2%",
+        "addinationalInputs": [],
+        "style": {
+          "width": "129px",
+          "height": "128px",
+          "position": "absolute",
+          "top": "0px",
+          "left": "259px",
+          "border": "1px solid hsl(var(--color-cc-grey-40))",
+          "borderRadius": "0 4px 0 0",
+          "hoverOutlineColor": "hsl(var(--color-cc-blue-50))"
+        }
+      },
+      {
+        "type": "craftingCell",
+        "displayName": "ingr 3",
+        "syntaxName": "%ingridient3%",
+        "addinationalInputs": [],
+        "style": {
+          "width": "128px",
+          "height": "129px",
+          "position": "absolute",
+          "top": "129px",
+          "left": "0px",
+          "border": "1px solid hsl(var(--color-cc-grey-40))",
+          "borderRadius": "0 0 0 0",
+          "hoverOutlineColor": "hsl(var(--color-cc-blue-50))"
+        }
+      },
+      {
+        "type": "craftingCell",
+        "displayName": "ingr 4",
+        "syntaxName": "%ingridient4%",
+        "addinationalInputs": [],
+        "style": {
+          "width": "129px",
+          "height": "129px",
+          "position": "absolute",
+          "top": "129px",
+          "left": "129px",
+          "border": "1px solid hsl(var(--color-cc-grey-40))",
+          "borderRadius": "0 0 0 0",
+          "hoverOutlineColor": "hsl(var(--color-cc-blue-50))"
+        }
+      },
+      {
+        "type": "craftingCell",
+        "displayName": "ingr 5",
+        "syntaxName": "%ingridient5%",
+        "addinationalInputs": [],
+        "style": {
+          "width": "129px",
+          "height": "129px",
+          "position": "absolute",
+          "top": "129px",
+          "left": "259px",
+          "border": "1px solid hsl(var(--color-cc-grey-40))",
+          "borderRadius": "0 0 0 0",
+          "hoverOutlineColor": "hsl(var(--color-cc-blue-50))"
+        }
+      },
+      {
+        "type": "craftingCell",
+        "displayName": "ingr 6",
+        "syntaxName": "%ingridient6%",
+        "addinationalInputs": [],
+        "style": {
+          "width": "128px",
+          "height": "129px",
+          "position": "absolute",
+          "top": "259px",
+          "left": "0px",
+          "border": "1px solid hsl(var(--color-cc-grey-40))",
+          "borderRadius": "0 0 0 4px",
+          "hoverOutlineColor": "hsl(var(--color-cc-blue-50))"
+        }
+      },
+      {
+        "type": "craftingCell",
+        "displayName": "ingr 7",
+        "syntaxName": "%ingridient7%",
+        "addinationalInputs": [],
+        "style": {
+          "width": "129px",
+          "height": "129px",
+          "position": "absolute",
+          "top": "259px",
+          "left": "129px",
+          "border": "1px solid hsl(var(--color-cc-grey-40))",
+          "borderRadius": "0 0 0 0",
+          "hoverOutlineColor": "hsl(var(--color-cc-blue-50))"
+        }
+      },
+      {
+        "type": "craftingCell",
+        "displayName": "ingr 8",
+        "syntaxName": "%ingridient8%",
+        "addinationalInputs": [],
+        "style": {
+          "width": "129px",
+          "height": "129px",
+          "position": "absolute",
+          "top": "259px",
+          "left": "259px",
+          "border": "1px solid hsl(var(--color-cc-grey-40))",
+          "borderRadius": "0 0 4px 0",
+          "hoverOutlineColor": "hsl(var(--color-cc-blue-50))"
+        }
+      }
+    ],
+    "style": {
+      "backgroundColor": "hsl(var(--color-cc-grey-40))"
+    }
+  },
+  "recipeTypes": [
+    {
+      "name": "shapeless",
+      "displayName": "Shapeless",
+      "funtionPrefix": "addShapeless",
+      "functionSyntax": "(%recipeName%, %output% * %amount%, [%ingridient0%, %ingridient1%, %ingridient2%, %ingridient3%, %ingridient4%, %ingridient5%, %ingridient6%, %ingridient7%, %ingridient8%])"
+    },
+    {
+      "name": "shaped",
+      "displayName": "Shaped",
+      "funtionPrefix": "addShaped",
+      "functionSyntax": "(%recipeName%, %output% * %amount%, [[%ingridient0%, %ingridient1%, %ingridient2%], [%ingridient3%, %ingridient4%, %ingridient5%], [%ingridient6%, %ingridient7%, %ingridient8%]])"
+    },
+    {
+      "name": "shaped_mirrored",
+      "displayName": "Shaped Mirrored",
+      "funtionPrefix": "addShapedMirrored",
+      "functionSyntax": "(%recipeName%, %output% * %amount%, [[%ingridient0%, %ingridient1%, %ingridient2%], [%ingridient3%, %ingridient4%, %ingridient5%], [%ingridient6%, %ingridient7%, %ingridient8%]])"
+    }
+  ],
+  "addinationalInputs": [
+    ""
+  ]
+},{
+  "_id": {
+    "$oid": "62fa610f50fbe346018699b9"
+  },
+  "name": "vanilla_crafting",
+  "displayName": "Vanilla",
+  "prefix": "craftingTable",
+  "canvas": {
+    "slots": [
+      {
+        "type": "craftingCell",
+        "displayName": "ingr 0",
+        "syntaxName": "%ingridient0%",
+        "addinationalInputs": [],
+        "style": {
+          "width": "128px",
+          "height": "128px",
+          "position": "absolute",
+          "top": "0px",
+          "left": "0px",
+          "borderRadius": "4px 0 0 0",
+          "outlineColor": "transparent"
+        }
+      },
+      {
+        "type": "craftingCell",
+        "displayName": "ingr 1",
+        "syntaxName": "%ingridient1%",
+        "addinationalInputs": [],
+        "style": {
+          "width": "129px",
+          "height": "128px",
+          "position": "absolute",
+          "top": "0px",
+          "left": "129px",
+          "borderRadius": "0 0 0 0",
+          "hoverOutlineColor": "hsl(var(--color-cc-blue-50))",
+          "outlineColor": "transparent"
+        }
+      },
+      {
+        "type": "craftingCell",
+        "displayName": "ingr 2",
+        "syntaxName": "%ingridient2%",
+        "addinationalInputs": [],
+        "style": {
+          "width": "129px",
+          "height": "128px",
+          "position": "absolute",
+          "top": "0px",
+          "left": "259px",
+          "borderRadius": "0 4px 0 0",
+          "hoverOutlineColor": "hsl(var(--color-cc-blue-50))",
+          "outlineColor": "transparent"
+        }
+      },
+      {
+        "type": "craftingCell",
+        "displayName": "ingr 3",
+        "syntaxName": "%ingridient3%",
+        "addinationalInputs": [],
+        "style": {
+          "width": "128px",
+          "height": "129px",
+          "position": "absolute",
+          "top": "129px",
+          "left": "0px",
+          "borderRadius": "0 0 0 0",
+          "hoverOutlineColor": "hsl(var(--color-cc-blue-50))",
+          "outlineColor": "transparent"
+        }
+      },
+      {
+        "type": "craftingCell",
+        "displayName": "ingr 4",
+        "syntaxName": "%ingridient4%",
+        "addinationalInputs": [],
+        "style": {
+          "width": "129px",
+          "height": "129px",
+          "position": "absolute",
+          "top": "129px",
+          "left": "129px",
+          "borderRadius": "0 0 0 0",
+          "hoverOutlineColor": "hsl(var(--color-cc-blue-50))",
+          "outlineColor": "transparent"
+        }
+      },
+      {
+        "type": "craftingCell",
+        "displayName": "ingr 5",
+        "syntaxName": "%ingridient5%",
+        "addinationalInputs": [],
+        "style": {
+          "width": "129px",
+          "height": "129px",
+          "position": "absolute",
+          "top": "129px",
+          "left": "259px",
+          "borderRadius": "0 0 0 0",
+          "hoverOutlineColor": "hsl(var(--color-cc-blue-50))",
+          "outlineColor": "transparent"
+        }
+      },
+      {
+        "type": "craftingCell",
+        "displayName": "ingr 6",
+        "syntaxName": "%ingridient6%",
+        "addinationalInputs": [],
+        "style": {
+          "width": "128px",
+          "height": "129px",
+          "position": "absolute",
+          "top": "259px",
+          "left": "0px",
+          "borderRadius": "0 0 0 4px",
+          "hoverOutlineColor": "hsl(var(--color-cc-blue-50))",
+          "outlineColor": "transparent"
+        }
+      },
+      {
+        "type": "craftingCell",
+        "displayName": "ingr 7",
+        "syntaxName": "%ingridient7%",
+        "addinationalInputs": [],
+        "style": {
+          "width": "129px",
+          "height": "129px",
+          "position": "absolute",
+          "top": "259px",
+          "left": "129px",
+          "borderRadius": "0 0 0 0",
+          "hoverOutlineColor": "hsl(var(--color-cc-blue-50))",
+          "outlineColor": "transparent"
+        }
+      },
+      {
+        "type": "craftingCell",
+        "displayName": "ingr 8",
+        "syntaxName": "%ingridient8%",
+        "addinationalInputs": [],
+        "style": {
+          "width": "129px",
+          "height": "129px",
+          "position": "absolute",
+          "top": "259px",
+          "left": "259px",
+          "borderRadius": "0 0 4px 0",
+          "hoverOutlineColor": "hsl(var(--color-cc-blue-50))",
+          "outlineColor": "transparent"
+        }
+      }
+    ],
+    "bottomTitle": "Outputs",
+    "bottomSlots": [
+      {
+        "type": "craftingCell",
+        "displayName": "out",
+        "syntaxName": "%output%",
+        "addinationalInputs": [
+          {
+            "type": "text",
+            "displayName": "Amount",
+            "syntaxName": "%amount%",
+            "defaultValue": "1"
+          }
+        ],
+        "style": {
+          "position": "relative",
+          "borderRadius": "4px",
+          "outlineColor": "hsl(var(--color-cc-grey-40))"
+        }
+      }
+    ],
+    "style": {
+      "backgroundColor": "hsl(var(--color-cc-grey-40))"
+    }
+  },
+  "recipeTypes": [
+    {
+      "name": "shapeless",
+      "displayName": "Shapeless",
+      "functionSyntax": "craftingTable.addShapeless('%recipeName%', %output% * %amount%, [%ingridient0%, %ingridient1%, %ingridient2%, %ingridient3%, %ingridient4%, %ingridient5%, %ingridient6%, %ingridient7%, %ingridient8%]);"
+    },
+    {
+      "name": "shaped",
+      "displayName": "Shaped",
+      "functionSyntax": "craftingTable.addShaped('%recipeName%', %output% * %amount%, [[%ingridient0%, %ingridient1%, %ingridient2%], [%ingridient3%, %ingridient4%, %ingridient5%], [%ingridient6%, %ingridient7%, %ingridient8%]]);"
+    },
+    {
+      "name": "shaped_mirrored",
+      "displayName": "Shaped Mirrored",
+      "functionSyntax": "craftingTable.addShapedMirrored('%recipeName%', %output% * %amount%, [[%ingridient0%, %ingridient1%, %ingridient2%], [%ingridient3%, %ingridient4%, %ingridient5%], [%ingridient6%, %ingridient7%, %ingridient8%]]);"
+    }
+  ],
+  "addinationalInputs": []
+}]
